@@ -7,7 +7,7 @@ export default defineConfig({
     server: {
         proxy: {
             '/api': {
-                target: 'http://localhost:8080', // Spring Boot 端口
+                target: 'https://one024-coder-back.onrender.com', // Spring Boot 端口
                 changeOrigin: true
             }
         }

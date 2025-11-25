@@ -1,0 +1,18 @@
+# Java 相关
+*.class
+*.jar
+*.war
+*.ear
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEA 相关
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# 系统相关
+.DS_Store
+Thumbs.db

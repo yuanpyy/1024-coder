@@ -150,7 +150,7 @@ async function uploadFile() {
   formData.append('file', file.value)
 
   try {
-    const res = await fetch('/api/quiz/upload', {
+    const res = await fetch("https://one024-coder-back.onrender.com/api/quiz/upload", {
       method: 'POST',
       body: formData
     })
